@@ -14,14 +14,15 @@ EDA is used to visualize patterns and relationships in the dataset. Visualizing 
 After EDA, we identify which features are most important in predicting heart disease:
 
     a. Correlation Analysis: Helps determine if any features should be removed due to multicollinearity (i.e., features that are highly correlated).
+   
     b. Domain Knowledge: Medical knowledge helps ensure that significant features such as age, sex, and max heart rate are retained, even if they don't have high statistical significance.
 
-4. Model Building
+5. Model Building
 With clean and prepared data, we can now build the prediction model.
 
-5. Model Evaluation
+6. Model Evaluation
 Once the model is trained, evaluate its performance using various metrics like accuracy, precision, recal(sensitivity), f1 score, etc.
 
-6. Threshold Setting
+7. Threshold Setting
 Once performance metrics are computed, thresholds must be set to decide whether the model is good enough for deployment.
 
